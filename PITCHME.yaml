@@ -1,12 +1,11 @@
 theme : sky
 
-logo : logo.png
+logo : favicon.ico
 
 footnote : "© KimJunHee 2018 sample Inc."
 
 slide-number: true
 
-#コードのシンタックスハイライトの設定
 highlight : monokai
 
 autoslide : 5000
