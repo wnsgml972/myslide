@@ -1,95 +1,111 @@
-
-/* Welcome Slide Text Styles */
-.faded {
-  color: #CE7731;
+.headline {
+  color: white;
+  width: 80%;
+  font-weight: bold;
+  font-size: 2em !important;
+  font-variant: small-caps !important;
 }
 
-/* Pro Features Detailed Text Styles */
-.pro-feature-details {
-  color: #36454F !important;
-  font-size: 0.8em !important;
+.byline {
+  color: white;
+  font-weight: bold !important;
+  font-family: Helvetica Neue !important;
 }
 
-/* Community Features Detailed Text Styles */
-.feature-details {
-  color: #36454F !important;
-  font-size: 0.55em !important;
+.thumbnail img {
+  width: 25%;
 }
 
-/* General Use Styles */
-.heading-white h1,
-.heading-white h2,
-.heading-white h3,
-.heading-white h4 {
-    color: white;
-}
-sup {
-  color: gray;
+.thumbnail-center img {
+  width: 50%;
 }
 
-/* Fixed Theme Style Overrides */
-.reveal a:hover {
-  color: #BF5818;
-}
-.reveal a {
-  color: #E58537;
+.tip {
+  color:gray;
   font-size: 0.6em !important;
 }
-.reveal section img {
-   box-shadow: 0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
+
+.help {
+  color: #a49436;
+  font-size: 0.4em !important;
+  font-variant: small-caps !important;
+  letter-spacing: 0.2em;
 }
-.reveal .controls button {
+
+.brand {
+  width: 100%;
+  letter-spacing: 0.1em;
+  font-size: 0.9em !important;
+  font-variant: small-caps !important;
+}
+
+.brand-options {
+  font-size: 0.65em !important; 
+}
+
+.doclink {
+  width: 80%; 
+  font-size: 0.6em !important;
+}
+
+.splitscreen img {
+  width: 100%;
+}
+
+.graphql-details {
+  width: 50%;
   color: gray;
+  font-size: 0.7em !important;
+  line-height: 1.5em !important;
 }
 
-/* GitPitch Footer Help Style Override */
-#title-footer p.footer-hard {
+.graphql-title {
+  width: 50%;
+  text-align: center;
+}
+
+.graphql-bullets {
+  width: 50%;
   color: gray;
+  font-size: 0.7em !important;
+  line-height: 1.5em !important;
 }
 
-/* GitPitch Pro Fonts Style Imports */
-@font-face {
-  font-family: 'Montserrat Heavy';
-  font-style: normal;
-  font-weight: 900;
-  src: url('/assets/fonts/montserrat-heavy.woff2') format('woff2'),
-       url('/assets/fonts/montserrat-heavy.woff') format('woff');
-}
-.montserrat-heavy,
-.montserrat-heavy * {
-  text-shadow: none !important;
-  text-transform: none !important;
-  font-family: "Montserrat Heavy", sans-serif !important;
-}
-@font-face {
-  font-family: 'Raleway Medium';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/assets/fonts/raleway-medium.woff2') format('woff2'),
-       url('/assets/fonts/raleway-medium.woff') format('woff');
-}
-.raleway-medium,
-.raleway-medium * {
-  text-shadow: none !important;
-  text-transform: none !important;
-  font-family: "Raleway Medium", sans-serif !important;
+.graphql-arch img {
+  width: 50%;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-.reveal h3 {
-  text-shadow: none !important;
-  text-transform: none !important;
-  font-family: "Raleway Medium", sans-serif !important;
+.jvmarch img {
+  width: 80%;
 }
 
-/*
- * FontAwesome Font Style Override.
- * This style rule must appear after GitPitch Pro Fonts imports.
- */
-.fa-font {
-  display: inline-block !important;
-  font: normal normal normal 14px/1 FontAwesome !important;
-  font-size: inherit !important;
-  text-rendering: auto !important;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+.docslink {
+  width: 80%;  
 }
+
+.reveal pre {
+  width: 100%;
+  box-shadow : none;
+}
+
+.reveal pre code {
+  font-size: 1.2em;
+  line-height: 1.2;
+  max-height: 50vh !important;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.notransform {
+  text-transform: none;
+}
+
+.aesthetics {
+  width: 100%;
+  letter-spacing: 0.2em;
+  font-size: 0.7em !important;
+  font-variant: small-caps !important;
+}
+
